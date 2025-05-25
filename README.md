@@ -1,5 +1,7 @@
 # LivsmedelCLI
 
+![demo](demo.gif)
+
 LivsmedelCLI är ett enkelt program som låter dig söka på ett livsmedels näringsinnehåll i din terminal. Datan hämtas från Livsmedelsdatabasen som tillhandahålls av Livsmedelsverket via ett API. Databasen innehåller näringsinnehåll för mer än 2400 livsmedel.
 
 ## Förhandskrav
