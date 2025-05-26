@@ -18,7 +18,7 @@ def get_food_data() -> list: # (of tuples)
         return [(item.get("nummer"), item.get("namn"), item.get("links")[0].get("href")) for item in food_data["livsmedel"]]
     
     except requests.exceptions.RequestException as e:
-        print(f"\nError fetching data: {e}")
+        print(f"\nFel vid datainhämtning: {e}")
         return []
     
 
@@ -29,7 +29,7 @@ def get_nutrients_data(food:tuple) -> list: # (of tuples)
         nutrients_data = response.json()
         return [(nutrient.get("namn"), nutrient.get("varde"), nutrient.get("enhet")) for nutrient in nutrients_data]
     except requests.exceptions.RequestException as e:
-        print(f"\nError fetching nutrients data: {e}")
+        print(f"\nFel vid datainhämtning: {e}")
         return []
     
 
