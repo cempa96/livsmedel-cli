@@ -94,5 +94,3 @@ Exempel:
 ## Utökning
 
 Det är fritt fram att utöka programmet med ytterligare funktioner. Livsmedelsverkets API har fler endpoints utöver näringsinnehåll, t.ex råvaror och ingredienser.
-
-## Contributing
